@@ -553,9 +553,9 @@ class PDF417 {
         $rows = ceil($nce / $cols);
         $size = ($cols * $rows);
         // adjust rows
-        if (($rows < 3) OR ($rows > 90)) {
-            if ($rows < 3) {
-                $rows = 3;
+        if (($rows < 30) OR ($rows > 90)) {
+            if ($rows < 30) {
+                $rows = 30;
             } elseif ($rows > 90) {
                 $rows = 90;
             }
