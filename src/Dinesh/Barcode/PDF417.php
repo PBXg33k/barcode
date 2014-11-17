@@ -634,7 +634,10 @@ class PDF417 {
             $row .= sprintf('%17b', $this->clusters[$cid][$L]);
             // for each column
             for ($c = 0; $c < $cols; ++$c) {
-                $row .= sprintf('%17b', $this->clusters[$cid][$codewords[$k]]);
+                if(isset($codewords[$k]))
+                    $row .= sprintf('%17b', $this->clusters[$cid][$codewords[$k]]);
+                else
+                    $row .= sprintf('%17b', 900);
                 ++$k;
             }
             switch ($cid) {
