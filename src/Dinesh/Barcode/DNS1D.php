@@ -4,10 +4,38 @@ namespace Dinesh\Barcode;
 
 use Illuminate\Support\Str;
 
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+//============================================================+
+// File name   : tcpdf_barcodes_1d.php
+// Version     : 1.0.025
+// Begin       : 2008-06-09
+// Last Update : 2013-03-17
+// Author      : Nicola Asuni - Tecnick.com LTD - www.tecnick.com - info@tecnick.com
+// License     : GNU-LGPL v3 (http://www.gnu.org/copyleft/lesser.html)
+// -------------------------------------------------------------------
+// Copyright (C) 2008-2013 Nicola Asuni - Tecnick.com LTD
+//
+// This file is part of TCPDF software library.
+//
+// TCPDF is free software: you can redistribute it and/or modify it
+// under the terms of the GNU Lesser General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// TCPDF is distributed in the hope that it will be useful, but
+// WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+// See the GNU Lesser General Public License for more details.
+//
+// You should have received a copy of the GNU Lesser General Public License
+// along with TCPDF.  If not, see <http://www.gnu.org/licenses/>.
+//
+// See LICENSE.TXT file for more information.
+// -------------------------------------------------------------------
+//
+// Description : PHP class to creates array representations for
+//               common 1D barcodes to be used with TCPDF.
+//
+//============================================================+
 
 /**
  * Description of DNS1D
